@@ -14,6 +14,7 @@ googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX fo
 disableKinds:
 - taxonomy
 - taxonomyTerm
+
 markup:
   goldmark:
     renderer:
@@ -63,9 +64,9 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
-    url: /
+    url: /about
   - title: Contact
-    url: /
+    url: #contact
   - title: Dropdown
     sublinks:
     - title: Dropdown item
@@ -79,72 +80,38 @@ params:
   - title: Sign up
     url: /
     button: true
-  sidebar:
-    # Logo (from static/images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Baxter Real Estate, By Numbers
+    subtitle: See how we're doing by key metrics
     tiles:
-    - title: App builder
+    - title: $N+ Tenants
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: We house over $N tenants, and have helped over $M of the homeless or near homeless to find housing
       url: /
       buttonText: Free trial
-    - title: Cloud integration
+    - title: X Employees
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: We keep a lean team focused on ---
       url: /
       buttonText: Get started
-    - title: Add-ons & plugins
+    - title: $B Total Value of Real Estate Owned
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Our Approach
+    subtitle: Vertical integration + Maximal Efficiency
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Automate where possible
+      text: We use property management software to streamline maintenance requests and rapidly address issues for our tenants.
       # Icon (from static/images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Off-Market Opportunities
+      text: We seek out the best opportunities in New Hampshire, whether they're officially on the market or not. We'll take your struggling property and turn it around.
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Quick Closings
+      text: We want to make the sale process as smooth as possible - we're committed to closing as quickly as you're comfortable with.
       icon: mobile-feed
   section3:
     title: One platform
