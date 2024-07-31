@@ -50,53 +50,29 @@ params:
     image: illustrations/apt_concept.jpg
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
-    clientlogos:
-    - logo: systek
-      url: https://google.com
-    - logo: tribe
-      url: https://stefma.github.io/hugo-fresh/
-    - logo: kromo
-      url: https://github.com/StefMa/hugo-fresh
-    - logo: infinite
-      url: https://hugo-fresh.vercel.app/
-    - logo: gutwork
-      url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
     url: /about
   - title: Contact
     url: #contact
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
   section1:
     title: Baxter Real Estate, By Numbers
     subtitle: See how we're doing by key metrics
     tiles:
-    - title: $N+ Tenants
+    - title: 230+ Units
       icon: mouse-globe
-      text: We house over $N tenants, and have helped over $M of the homeless or near homeless to find housing
+      text: We tenants in over 230 units, and have helped 15+ homeless or near homeless to find housing
       url: /
       buttonText: Free trial
-    - title: X Employees
+    - title: 6 Employees
       icon: laptop-cloud
-      text: We keep a lean team focused on ---
+      text: We keep a lean team focused on keeping things running smoothly with minimal administrative overhead.
       url: /
       buttonText: Get started
-    - title: $B Total Value of Real Estate Owned
+    - title: $22M Value of Real Estate Owned
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Across a broad portfolio of multi-family homes and apartment buildings across New Hampshire.
       url: /
       buttonText: Get started
   section2:
@@ -120,8 +96,8 @@ params:
     buttonText: Get started
     buttonLink: "#"
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: Tenant Testimonials
+    subtitle: See what our tenants have to say about us!
     clients:
     - name: Irma Walters
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
@@ -143,23 +119,16 @@ params:
     # method: POST
   footer:
     # Logo (from static/images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: BRE.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/StefMa
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
     - link: https://facebook.com/#
       icon: facebook
     - link: https://twitter.com/StefMa91
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    bulmalogo: false
     quicklinks:
       column1:
         title: "Product"
