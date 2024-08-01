@@ -80,7 +80,6 @@ params:
     features:
     - title: Automate where possible
       text: We use property management software to streamline maintenance requests and rapidly address issues for our tenants.
-      # Icon (from static/images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Off-Market Opportunities
       text: We seek out the best opportunities in New Hampshire, whether they're officially on the market or not. We'll take your struggling property and turn it around.
@@ -88,12 +87,6 @@ params:
     - title: Quick Closings
       text: We want to make the sale process as smooth as possible - we're committed to closing as quickly as you're comfortable with.
       icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
   section4:
     title: Tenant Testimonials
     subtitle: See what our tenants have to say about us!
@@ -110,6 +103,7 @@ params:
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
       img: 3
+
   section5:
     title: Drop us a line or two
     subtitle: We'd love to hear from you
