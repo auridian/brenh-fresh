@@ -4,20 +4,25 @@ sidebar: false # or false to display the sidebar
 include_footer: true # or false to display the footer
 ---
 
-<h3>About Baxter Real Estate</h3>
+<h3 style="text-align: center;">About Baxter Real Estate</h3>
 
-Text text text
+Baxter Real Estate was founded in <> by Tim Baxter and has since grown to maintain residential properties all across New Hampshire. Our presence in the state is shown on the following map.
 
-<h3>Our Team</h3>
+<div style="width: 50%; margin: 0 auto; text-align: center;">
 
-<h5>Tim Baxter</h5>
+{{< figure src="/images/map.png" title="Locations served by Baxter Real Estate" >}}
 
-(Insert picture here)
+</div>
 
-Owner and sole manage of Baxter Real Estate.
 
-<h5>Person Person</h5>
+<h3 style="text-align: center;">Our Team</h3>
 
-(Insert picture here)
+<h5 style="text-align: center;">Tim Baxter</h5>
 
-Fixes stuff.
+<div style="width: 25%; margin: 0 auto; max-width: 25vw; text-align: center;">
+
+{{< figure src="/images/tb.jpg" title="Tim Baxter" >}}
+
+</div>
+
+<p style="text-align: center;"> Owner and sole manager of Baxter Real Estate. </p>

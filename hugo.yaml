@@ -29,7 +29,7 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/BRE.png
+    image: logos/bre_logo.png
     link: /
     # Default width/height. Uncomment if you need to change
     # width: 112
@@ -85,22 +85,22 @@ params:
     - title: Quick Closings
       text: We want to make the sale process as smooth as possible - we're committed to closing as quickly as you're comfortable with.
       icon: mobile-feed
-  section4:
-    title: Tenant Testimonials
-    subtitle: See what our tenants have to say about us!
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+ # section4:
+ #   title: Tenant Testimonials
+ #   subtitle: See what our tenants have to say about us!
+ #   clients:
+ #   - name: Irma Walters
+ #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+ #     job: Accountant
+ #     img: 1
+ #   - name: John Bradley
+ #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+ #     job: Financial Analyst
+ #     img: 2
+ #   - name: Gary Blackman
+ #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+ #     job: HR Manager
+ #     img: 3
 
   section5:
     title: Drop us a line or two
@@ -110,45 +110,14 @@ params:
     # method: POST
   footer:
     # Logo (from static/images/logos/___)
-    logo: BRE.png
+    logo: bre_logo.png
     # Social Media Title
-    socialmediatitle: Follow Us
+#    socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/StefMa91
-      icon: twitter
+#    socialmedia:
+#    - link: https://facebook.com/#
+#      icon: facebook
+#    - link: https://twitter.com/StefMa91
+#      icon: twitter
     bulmalogo: false
-    quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+
