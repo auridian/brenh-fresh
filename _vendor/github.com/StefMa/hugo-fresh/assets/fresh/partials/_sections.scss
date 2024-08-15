@@ -64,6 +64,16 @@ img.pushed-image {
     margin-top: -5vh;
 }
 
+//Pulled image2
+img.pushed-image2 {
+    display: flex;
+    margin-top: -5vh;
+    align-items: center;
+    height:100%;
+    max-width:100%;
+    object-fit: cover;
+
+}
 //Icon box
 .media.icon-box {
     border-top: none !important;

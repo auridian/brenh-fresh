@@ -7998,6 +7998,14 @@ Section Styles
 img.pushed-image {
   margin-top: -5vh; }
 
+img.pushed-image2 {
+  display: flex;
+  margin-top: -5vh;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover; }
+
 .media.icon-box {
   border-top: none !important; }
   .media.icon-box .media-content .content p span {
