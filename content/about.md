@@ -6,7 +6,7 @@ include_footer: true # or false to display the footer
 
 <h3 style="text-align: center;">About Baxter Real Estate</h3>
 
-Baxter Real Estate was founded in <> by Tim Baxter and has since grown to maintain residential properties all across New Hampshire. Our presence in the state is shown on the following map.
+Baxter Real Estate was founded in 2020 by Tim Baxter and has since grown to maintain residential properties all across New Hampshire. Our presence in the state is shown on the following map.
 
 <div style="width: 50%; margin: 0 auto; text-align: center;">
 
